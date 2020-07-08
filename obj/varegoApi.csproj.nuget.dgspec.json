@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/danieljunior/Documentos/produto/varego/varegoApi/varegoApi.csproj": {}
+  },
+  "projects": {
+    "/home/danieljunior/Documentos/produto/varego/varegoApi/varegoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/danieljunior/Documentos/produto/varego/varegoApi/varegoApi.csproj",
+        "projectName": "varegoApi",
+        "projectPath": "/home/danieljunior/Documentos/produto/varego/varegoApi/varegoApi.csproj",
+        "packagesPath": "/home/danieljunior/.nuget/packages/",
+        "outputPath": "/home/danieljunior/Documentos/produto/varego/varegoApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/danieljunior/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
